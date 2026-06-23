@@ -10,8 +10,8 @@
  * GNU General Public License for more details.
  */
 
-#include <dt-bindings/msm/msm-bus-ids.h>
-#include <dt-bindings/msm/msm-bus-rule-ops.h>
+#include "../../../../../include/dt-bindings/msm/msm-bus-ids.h"
+#include "../../../../../include/dt-bindings/msm/msm-bus-rule-ops.h"
 
 &soc {
 	static-rules {
