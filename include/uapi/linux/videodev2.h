@@ -1915,6 +1915,7 @@ struct v4l2_streamparm {
 		(V4L2_EVENT_MSM_VIDC_START + 2)
 #define V4L2_EVENT_MSM_VIDC_PORT_SETTINGS_CHANGED_INSUFFICIENT	\
 		(V4L2_EVENT_MSM_VIDC_START + 3)
+#define V4L2_EVENT_MSM_VIDC_CLOSE_DONE	(V4L2_EVENT_MSM_VIDC_START + 4)
 /*
  * Bitdepth changed insufficient is deprecated now, however retaining
  * to prevent changing the values of the other macros after bitdepth
